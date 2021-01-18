@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color:burlywood
+}
+.titulo {
+  font: bold 36px Fuente, sans-serif;
+  text-align: center;
+  font-size: 100px;
+  text-shadow: rgba(0, 0, 0, 0.5) 10px 7px 6px;
+  -webkit-text-stroke: black 1px;
+  color: #000000;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.05s;
+  -moz-transition: -webkit-transform 1s ease-in-out 0.05s;
+  transition: transform 1s ease-in-out 0.05s;
+}
+.titulo:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+h2 {
+  font: 15px Verdana, sans-serif;
+}
+.ppal {
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+}
+.mensaje {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+#agrupar {
+  width: 1100px;
+  margin: 25px auto;
+  text-align: left;
+}
+
+#menu {
+  background: #000000;
+  padding: 5px 15px;
+  
+}
+#menu li,
+a {
+  display: inline-block;
+  list-style: none;
+  padding: 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+#menu li:hover {
+  display: inline-block;
+  list-style: none;
+  padding: 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  background: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+  display: block;
+}
+body {
+  text-align: center;
+}
+article {
+  background: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.sub {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.flex-container{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 2px solid black;
+}
+.flex-container2{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+.imgMensaje {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  text-align: center;
+}
+#pie {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  background: white;
+  background: #000000;
+  color: white;
+  font-weight: normal;
+}
+#pie span {
+  font-size: 18px;
+}
+div.gallery img {
+  display: block;
+  -webkit-box-shadow: 0px 0px 15px 15px #000000;
+  -moz-box-shadow: 0px 0px 15px 15px #000000;
+  box-shadow: 0px 0px 15px 15px #030303;
+}
+div.gallery img:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #000000;
+  -webkit-box-shadow: 0px 0px 15px 15px #000000;
+  -moz-box-shadow: 0px 0px 15px 15px #000000;
+}
+.flex-container3{
+  background: url(img/ropa.jpg);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 150px;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+.flex-container4{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  justify-content: space-around;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+.flex-container4 div{
+  padding: 40px;
+}
+.imgFamily:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: transform 0.2s;
+  -webkit-box-shadow: 0px 0px 15px 15px #000000;
+  -moz-box-shadow: 0px 0px 15px 15px #000000;
+  box-shadow: 0px 0px 15px 15px #000000;
+}
+.imgFamily {
+  transition: transform 0.2s;
+}
+.art{
+  background: burlywood; 
+  text-align: left; 
+  padding: 25px;
+}
+input{
+  font-size: medium; 
+  padding: 12px; 
+  width: 45%; 
+  border: 2px solid #aaa; 
+  border-radius: 4px; 
+  margin: 8px 0; 
+  outline: none;
+  transition: .3s;
+}
+input[type=text]:focus{
+  border-color: black;
+  box-shadow: 0 0 8px 0 black;
+}
+.btn{
+  letter-spacing: 3px;
+  font-size: medium; 
+  padding: 12px; 
+  width: 45%; 
+  border: 2px solid #fff; 
+  border-radius: 4px; 
+  margin: 8px 0; 
+  outline: none;
+  transition: .3s;
+  float: right;
+  text-align: center;
+  background: black;
+}
+
+
+
